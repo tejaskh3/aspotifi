@@ -1,7 +1,18 @@
-import Image from 'next/image'
-import Sidebar from '@/components/Sidebar'
+import Header from "@/components/Header";
+import Image from "next/image";
 export default function Home() {
   return (
-    <h1 className='text-green-500'><Sidebar><h1>hello this is tejas.</h1></Sidebar></h1>
-  )
+    <div
+      className="
+      bg-neutral-900 
+      rounded-lg 
+      h-full 
+      w-full 
+      overflow-hidden 
+      overflow-y-auto
+    "
+    >
+      <Header className="">header</Header>
+    </div>
+  );
 }

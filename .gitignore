@@ -11,7 +11,7 @@
 # next.js
 /.next/
 /out/
-
+notes.md
 # production
 /build
 
